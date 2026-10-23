@@ -16,7 +16,7 @@ SECTIONS = [
   ("B00IOO2RDM","Emerald Pendant","Angara Emerald-Cut Emerald Pendant with Diamond Trio, 14K","A vivid emerald in a clean four-prong setting, crowned by three diamonds that catch the candlelight like a whispered promise."),
   ("B078MFMZSH","Emerald Earrings","Dazzlingrock Emerald &amp; Diamond Halo Stud Earrings, 14K","Round emeralds encircled by halos of white diamonds, a jewel-box touch of colour framing a radiant bridal glow."),
   ("B01ET1ZMCG","Ruby Pendant","Angara Teardrop Ruby Pendant with Diamond, 14K White Gold","A teardrop of deep crimson ruby beneath a single diamond, romance distilled into one exquisite gem."),
-  ("B0C9F673VG","Ruby Halo Pendant","Angara Vintage-Style Oval Ruby Pendant with Diamond Halo, 14K Gold","A rich oval ruby held in four delicate prongs and encircled by a halo of diamonds, beneath a diamond-kissed bail: timeless, graceful and quietly regal."),
+  ("B01CS8AXKI","Sapphire Heart Pendant","Angara Blue Sapphire Heart Pendant with Diamond Double Halo, 14K Yellow Gold","A heart of deep royal-blue sapphire cradled in a double halo of diamonds and warm yellow gold: your something blue, made to be treasured long after the vows."),
  ]),
  dict(id="pearls", cls="t0", banner="cat-pearls.jpg", title="Pearls", eyebrow="Akoya, South Sea &amp; Tahitian",
   lede="Born of the sea and glowing like candlelight, pearls are the bride&rsquo;s most beloved companion.",
