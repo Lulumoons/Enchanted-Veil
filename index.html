@@ -33,7 +33,7 @@
 <p class="fine">&copy; 2026 Enchanted Veil. With love, for every bride.</p></footer>
 <script>
 // ===== Set your Amazon Associates tracking ID here =====
-const AFFILIATE_TAG = "AFFILIATE_TAG";
+const AFFILIATE_TAG = "enchantedveil-20";
 document.querySelectorAll("a[data-asin]").forEach(a=>{a.href="https://www.amazon.com/dp/"+a.dataset.asin+"?tag="+encodeURIComponent(AFFILIATE_TAG);});
 document.documentElement.classList.add("js");
 const io=new IntersectionObserver(es=>es.forEach(x=>{if(x.isIntersecting){x.target.classList.add("in");io.unobserve(x.target);}}),{threshold:.12});
