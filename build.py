@@ -28,8 +28,8 @@ start = html.index('<section class="cat t', html.index('id="note"'))
 end = html.index('<footer>')
 html = html[:start] + "\n".join(secs) + "\n\n" + html[end:]
 # Nav (header + footer)
-links = '<a href="#luxe">The Luxe Collection</a>' + "".join(f'<a href="#{s["id"]}">{s["title"]}</a>' for s in SECTIONS)
-HEADER = [("luxe","The Luxe Collection"),("emeralds","Emeralds"),("rubies","Rubies"),("rare","Rare Treasures"),("pearls","Pearls"),("blue","Something Blue"),("tiaras","Tiaras"),("veils","Veils"),("honeymoon","Honeymoon")]
+links = '<a href="#christmas">The Christmas Edit</a><a href="#luxe">The Luxe Collection</a>' + "".join(f'<a href="#{s["id"]}">{s["title"]}</a>' for s in SECTIONS)
+HEADER = [("christmas","Christmas"),("luxe","The Luxe Collection"),("emeralds","Emeralds"),("rubies","Rubies"),("rare","Rare Treasures"),("pearls","Pearls"),("blue","Something Blue"),("tiaras","Bridal Pearls"),("honeymoon","Honeymoon")]
 hlinks = "".join(f'<a href="#{i}">{t}</a>' for i, t in HEADER)
 html = re.sub(r'(<header class="top"><a class="logo" href="#top">Enchanted Veil</a><nav>).*?(</nav>)', lambda m: m.group(1)+hlinks+m.group(2), html, flags=re.S)
 html = re.sub(r'(<nav class="fnav">).*?(</nav>)', lambda m: m.group(1)+links+m.group(2), html, flags=re.S)
